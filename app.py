@@ -12,20 +12,6 @@ data = {
       "contacts": [],
       "sentMessages": [],
       "receivedMessages": []
-    },
-    {
-      "alias": "user2",
-      "name": "User 2",
-      "contacts": [],
-      "sentMessages": [],
-      "receivedMessages": []
-    },
-    {
-      "alias": "user3",
-      "name": "User 3",
-      "contacts": [],
-      "sentMessages": [],
-      "receivedMessages": []
     }
   ]
 }
