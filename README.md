@@ -32,4 +32,5 @@ Por otro lado, para eliminar contactos y usuarios manteniendo los mensajes ya el
 * Respecto a la eliminación de contactos y usuarios. Debería agregarse un caso de prueba sobre enviar un mensaje a un contacto eliminado, lo cual no debería permitirse. Al igual que ver los contactos o enviar un mensaje desde un usuario eliminado. 
 
 **¿Cuánto riesgo hay de “romper” lo que ya funciona?**
+
 El mayor riesgo está en la gestión de la eliminación de usuarios y contactos. Aquí el riesgo es medio, ya que si no se ajustan correctamente las condicionales sobre las eliminaciones, podría enviarse un mensaje desde un usuario o contacto eliminado. Por otra parte, sobre el máximo de contactos permitidos, si este falla, no es un error catastrófico, por lo que el riesgo es bajo. 
